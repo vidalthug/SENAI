@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de Rodapé</title>
+  <style>
+    body {
+      background-color: purple;
+
+
+    }
+    footer {
+      background-color: #FFFFFF;
+      padding: 140px;
+      text-align: center;
+    }
+    
+    .footer-links {
+      margin-bottom: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    
+    .footer-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      outline: none;
+    }
+    
+    .coluna{
+      display:inline-block;
+      width: 30px;
+      margin: 5px;
+
+    }
+    .row::after {
+      content: "";
+      clear: both;
+      display: block;
+      left: 50%;
+      margin-left: -35px;
+}
+
+    .footer-social-icons a {
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    .appstore {
+      
+      
+
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Conteúdo do Site</h1>
+    <p>Aqui está o conteúdo do site.</p>
+  </div>
+  
+  <footer>
+    <div class="footer-links">
+      <a href="#">SAC</a>
+      <a href="#">Telefone</a>
+      <a href="#">Sobre Nós</a>
+      <a href="#">Cadastro</a>
+      <a href="#">Consultas</a>
+      <a href="#">Páginas</a>
+    </div>
+    
+    <div class="footer-app-download">
+      <a href="#"><img src="../images/pt-br_badge_web_generic.png" alt="Google Play"></a>
+    </div>
+    <div class="appstore">
+      <a href="#"><img src="../images/disponivel-na-app-store-botao-1.png" alt="App Store"></a>
+    </div>
+    <div class="row">
+      <div class="coluna">
+        <a href="#"><img src="../images/youtube (1).svg" alt="Youtube" align=""></a>
+      </div>
+      <div class="coluna">
+        <a href="#"><img src="../images/twitter (1).svg" alt="Twitter" id="img2"></a>
+      </div>
+      <div class="coluna">
+        <a href="#"><img src="../images/instagram (2).svg" alt="Instagram" id="img3"></a>
+      </div>
+    </div>
+    <p>&copy; 2023 Nome do seu site. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

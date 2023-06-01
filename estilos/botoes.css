@@ -1,0 +1,116 @@
+#botaoHome {
+    background-color: #101010;
+    color: white;
+    height: 55px;
+    width: 240px;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    margin-left: 0px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoHome:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoHome:active{
+    background-color: #1f1f1f6d;
+}
+#botaoConsulta{
+    height: 55px;
+    width: 240px;
+    background-color: #101010;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoConsulta:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoConsulta:active{
+    background-color: #1f1f1f6d;
+}
+#botaoLogin{
+    height: 55px;
+    width: 240px;
+    background-color: #101010;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoLogin:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoLogin:active{
+    background-color: #1f1f1f6d;
+}
+#botaoSobrenos{
+    height: 55px;
+    width: 240px;
+    background-color: #101010;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoSobrenos:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoSobrenos:active{
+    background-color: #1f1f1f6d;
+}
+#botaoCadastro{
+    height: 55px;
+    width: 240px;
+    background-color: #101010;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoCadastro:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoCadastro:active{
+    background-color: #1f1f1f6d;
+}
+#botaoPlanos{
+    height: 55px;
+    width: 240px;
+    background-color: #101010;
+    font-family: 'anticslab';
+    font-size: medium;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-top: 7px;
+    display: inline-block;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+#botaoPlanos:hover{
+    background-color: #3a3a3a6d;
+}
+#botaoPlanos:active{
+    background-color: #1f1f1f6d;
+}
+

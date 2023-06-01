@@ -1,0 +1,24 @@
+#quadrado {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin-left: -8px;
+}
+
+#divCentralizada{
+    width: 100%;
+    height: 65px;
+    margin-left: 0px;
+    margin-top: 0px;
+    justify-content: center;
+    text-align: center;
+}
+#rootbar{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 70px;
+    margin-top: -4px;
+    left: 0px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>teste</title>
+  <link rel="stylesheet" type="text/css" href="../estilos/login1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="../java/login.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="login-panel">
+      <img src="../images/LogoNovaPNG.png" alt="LOGO" class="logo">
+      <h4 id="entre">Entrar no SP MEDICAL</h4>
+      <form id="login-form">
+        <input type="text" id="username" name="username" placeholder="CPF" required>
+        <div class="password-field">
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+            <i class="fas fa-eye-slash toggle-password" onclick="togglePasswordVisibility()"></i>
+                <select style="background-color: rgb(255, 255, 255); color: #000000; padding: 9px ; border: none; border-radius: 5px; font-size: 13px; cursor: pointer; width: 100%; width: 320px;  text-align:initial; color: #757575">
+                  <option value="Medico">Médico</option>
+                  <option value="Paciente">Paciente</option>
+                  <option value="opcao3">Colaborador</option>
+                </select>
+                <span style="margin-left: 10px;">Lembre-se de mim</span>
+        </div>
+        <div class="remember-me">
+          <input type="checkbox" id="remember-me" name="remember-me">
+          <label for="remember-me">Lembre-se de mim</label>
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
+      <div class="signup">
+        <p>Não tem uma conta? <span class="hover-effect"><a href="#">Inscreva-se</a></span></p>
+        <p>Esqueceu sua senha? <span class="hover-effect"><a href="esqueciasenha.html">Recupere</a></span> </p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

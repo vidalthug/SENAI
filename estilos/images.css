@@ -1,0 +1,24 @@
+#imagePronta{
+    margin-top: 0px;
+    margin-right: 0px;
+    height: 200px;
+    width: 100%;
+}
+#image{
+    height: 146px;
+    width: 146px;
+    left: 45.25%;
+    top: 25px;
+    position: absolute;
+}
+#imageCamp{
+    height: 500px;
+    width: 650px;
+    transform: scaleX(-1);
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+#imageCad{
+    width: 100%;
+    height: auto;
+}

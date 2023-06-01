@@ -1,0 +1,182 @@
+#botaoConsON{
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#botaoConsONfilho{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+}
+#botaoMeuPlan{
+    position: absolute;
+    background-color: #D9D9D9;
+    left: 50%;
+    margin-left: -120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#botaoMeuPlanfilho{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+}
+#botaoResEx{
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#botaoResExfilho{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+}
+#divCenBot{
+    height: 480px;
+    width: 280px;
+    vertical-align: middle;
+    right: 50%;
+    margin-right: 140px;
+
+}
+#botaoImageCamp{
+    background-color: #D9D9D9;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+#botImg1{
+    color: white;
+    background-color: #101010;
+    font-size: 40px;
+    position: absolute;
+    top: 3%;
+    left: -15%;
+    margin-left: -120px;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+    line-height: 80px;
+    margin-top: 15px;
+    border: 3px solid white;
+    font-family: 'anticslab';
+    border-radius: 2px;
+}
+#botImg2{
+    color: white;
+    background-color: #101010;
+    font-size: 40px;
+    position: absolute;
+    left: -15%;
+    top: 25%;
+    margin-left: -120px;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+    line-height: 80px;
+    margin-top: 15px;
+    border: 3px solid white;
+    font-family: 'anticslab';
+    border-radius: 2px;
+}
+#botImg3{
+    color: white;
+    background-color: #101010;
+    font-size: 40px;
+    position: absolute;
+    left: -15%;
+    top: 47%;
+    margin-left: -120px;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+    line-height: 80px;
+    margin-top: 15px;
+    border: 3px solid white;
+    font-family: 'anticslab';
+    border-radius: 2px;
+}
+#botImg4{
+    color: white;
+    background-color: #101010;
+    font-size: 40px;
+    position: absolute;
+    left: -15%;
+    top: 69%;
+    margin-left: -120px;
+    text-align: center;
+    height: 80px;
+    width: 240px;
+    line-height: 80px;
+    margin-top: 15px;
+    border: 3px solid white;
+    font-family: 'anticslab';
+    border-radius: 2px;
+}
+#triangulo1{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-top: 100px;
+    border-bottom: 80px solid transparent;
+    border-left: 80px solid blue;
+    margin-left: 1400px;
+}
+#triangulo2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-top: 100px;
+    border-bottom: 80px solid transparent;
+    border-right: 80px solid blue;
+    margin-left: 1400px;
+}
+#textoCamp{
+    padding-right: 140px;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 70px;
+}
+#tituloCamp{
+    margin-bottom: -50px;
+    margin-left: 85px;
+}
+#botCamp{
+    height: 50px;
+    width: 620px;
+    border-radius: 3px;
+    border: blue solid;
+    top: 65%;;
+    position: absolute;
+    font-size: 20px;
+    background-color: #d7d6d6;
+}
+#botCamp:hover{
+    border-color: blue;
+}
+#botCamp:active{
+    border-color: blue;
+}
+#faixa{
+    background-color: blue;
+    height: 5px;
+    width: 700px;
+    margin-left: -35px;
+    margin-top: 100px;
+    margin-left: -50px;
+}
